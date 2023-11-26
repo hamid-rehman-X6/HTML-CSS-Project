@@ -1,0 +1,238 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+
+/* --------------------------------------------------NAVBAR-------------------------------------------- */
+
+
+.header{
+    background-color: #BE3144;
+    display: flex;
+    justify-content: flex-end;
+    height: 70px;
+    position: fixed;
+    width: 100%;
+}
+
+.header nav{
+    margin-top: 12px;
+    margin-right: 15px;
+    padding: 10px;
+  
+}
+
+.header nav a{
+    color: #f0f0f0;
+    text-decoration: none;
+    padding: 24px;
+    font-size: 22px;
+    font-family: Poppis, sans-serif;
+}
+
+a:hover{
+    background-color: #45567D;
+}
+
+/* --------------------------------------------Slider------------------------------------------------- */
+
+.slider{
+    background-color: rgb(26, 25, 25);
+    background-image: linear-gradient(62deg, #3a3d40, transparent);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    color: white;
+    font-size: 60px;
+    font-family: Raleway, sans-serif;
+    padding-top: 250px;
+    align-self: center;
+}
+p{
+    color: #BE3144;
+    font-size: 32px;
+    font-style: italic;
+    /* font-family: Poppins, sans-serif;/ */
+    align-self: center;
+}
+
+/* ----------------------------------------Main Section---------------------------------------------- */
+
+.main-section{
+    display: flex;
+    flex-direction: column;
+    background-color: #45567D;
+    /* width: 100%; */
+    max-height: fit-content;
+}
+
+div.text{
+    align-self: center;
+    margin-top: 50px;
+    /* text-decoration: underline; */
+    font-family: 'Ralway' , sans-serif;
+    font-size: 1.8rem;
+    color: white;
+    border-bottom: 0.2rem solid white;
+}
+
+/* ---------------------------grid section------------------------------------ */
+div.grid-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-rows: 200px 200px; */
+    gap: 35px;
+    margin: 50px auto;
+    max-width: 1200px;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+}
+
+.item img{
+    object-fit: cover;
+} 
+
+.card p{
+    color: white;
+    text-align: center;
+    background-color: #303841;
+    font-family: sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    height: 60px;
+    padding-top: 20px;
+}
+.card >p:hover{
+    color: rgba(255, 68, 0, 0.815);
+    font-size: 24px;
+}
+
+a.links{
+    text-decoration: none;
+}
+
+.items1 img{
+    height: 290px; 
+}
+.items2 img{
+    height: 290px; 
+}
+.items3 img{
+    height: 290px;
+}
+.items4 img{
+    height: 290px;
+}
+.items5 img{
+    height: 290px;  
+}
+.items6 img{
+    height: 290px;  
+}
+
+
+
+/* ----------------------------Button section----------------------- */
+
+div.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.btn{
+    padding: 1rem 2rem;
+    border-radius: 2px;
+    background-color: #303841;
+    margin-bottom: 100px;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+
+.btn:hover{
+    background-color: #BE3144;
+}
+
+/* -----------------------------------------Final section-------------------------------------- */
+
+#footer{
+    background-color:#303841;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#footer h1{
+    padding: 10rem;
+    font-family: Raleway , sans-serif;
+
+}
+#footer p{
+    color: white;
+    font-size: 18px;
+    font-style: italic;
+    margin-top: -9rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* ----------------------------links ---------------------------*/
+
+.contact-links{
+    display: flex;
+    justify-content: center;
+    /* width: 100%; */
+    
+}
+.social-btn{
+    color: white;
+    padding: 3rem 2rem;
+    font-size: 28px;
+    font-family: 'Poppin' ,sans-serif;
+    text-shadow:  5px 4px 1px #1f1f1f;;
+    
+}
+.social-btn:hover{
+    background-color: #303841;
+    transform: translate(0px, 10px);
+    transition-timing-function: ease-out;
+    transition-duration: 0.3s ;
+    transition-delay: 0s;
+    transition-property: transform;
+}
+
+
+
+
+/* ---------------------------------------last footer section----------------------------- */
+.footer1{
+    border-top: 4px solid #BE3144;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #303841;
+    padding: 2rem;
+    /* font-weight:100; */
+
+}
+
+.footer1 > p{
+    margin: 2rem;
+    font-size: 22px;
+    color: white;
+    font-style: normal;
+    /* font-family: 'Poppins' , sans-serif; */
+
+    
+}
+
